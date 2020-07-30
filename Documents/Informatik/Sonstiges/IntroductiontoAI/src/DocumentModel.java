@@ -17,7 +17,7 @@ public class DocumentModel {
     /**
      * A list of separators for separating words.
      */
-    private static final String SEPARATORS = " ,:;.!?\t\r\n\"\'()*#-+[]_&%$@^_–/{}|<>=";
+    private static final String SEPARATORS = " ,:;.!?\t\r\n\"\'()*#-+[]_&%$@^_/{}<>=";
     
     private String            _filename;
     private ArrayList<String> _wordList;
